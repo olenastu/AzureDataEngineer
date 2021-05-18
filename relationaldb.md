@@ -28,3 +28,14 @@
 **Azure SQL Reference Architectures**
  Basic Web Application https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app?tabs=cli 
  ![image](https://user-images.githubusercontent.com/63510256/118671808-11014380-b7f8-11eb-9cd3-4df87bf39d30.png)
+
+**What is SQL DB managed instance?**
+- easy lift and shift
+- fully managed PaaS
+- full isolation and security
+- new business model
+
+**When to choose what?**
+- *Scenario 1:* in case you are building a new application, cloud native application and just need a base functionality. The best solution will be Azure SQL DB (PaaS)
+- *Scenario 2:* If you move application from on -prem and you need SQL agent or CLR, the best option will be Azure SQL MI (PaaS)
+- *Scenario 3:* You need SSAS/SSIS, and SQL agent/CLR and you are dependent on specific SQL Server version - you should use SQL Server on VM (IaaS)
