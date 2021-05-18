@@ -11,3 +11,7 @@
 ** Azure Relational DB offering**
 - Azure SQL
 - Azure Synapse Analytics 
+- Azure DB for MySQL
+- Azure DB for PostgreSQL
+- Azure DB for MariaDB
+- Azure DB for PostgreSQL - Hyperscale (Citus)
